@@ -1,2 +1,4 @@
-import backend from './lib/index.js'
-export default backend
+import backend from "./cjs/index.js";
+
+module.exports = backend;
+module.exports.default = backend;
